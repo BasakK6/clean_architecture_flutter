@@ -39,8 +39,8 @@ class MockConnectivity extends _i1.Mock implements _i2.Connectivity {
           [],
         ),
         returnValue: _i3.Future<_i4.ConnectivityResult>.value(
-            _i4.ConnectivityResult.wifi),
+            _i4.ConnectivityResult.bluetooth),
         returnValueForMissingStub: _i3.Future<_i4.ConnectivityResult>.value(
-            _i4.ConnectivityResult.wifi),
+            _i4.ConnectivityResult.bluetooth),
       ) as _i3.Future<_i4.ConnectivityResult>);
 }
